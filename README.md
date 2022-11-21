@@ -5,11 +5,11 @@ API Routes:
 
 Base URL: https://vivriti-capital-task.onrender.com
 
-1. Adding Employee to DB: 
+# 1. Adding Employee to DB: 
 
 "/list" : This route is used to get the list of all the employees from the DB in a JSON format.
 
-2. Register a new Employee:
+# 2. Register a new Employee:
 
 "/Registration" : This route is used to to add a new employee to the DB. Just make a POST request from an API platform with a body as follows:
 
@@ -21,7 +21,7 @@ Base URL: https://vivriti-capital-task.onrender.com
     "Department": "Dummy Department"
 }
 
-3. Update the deatails of Existing Employee:
+# 3. Update the deatails of Existing Employee:
 
 "/updateEmployee/:userid" : This route is used to update the details of an employee which is already existing in DB. Just make a POST request from an API platform with a body as follows:
 
@@ -31,7 +31,7 @@ Base URL: https://vivriti-capital-task.onrender.com
 
 This :userid parameter in the URL takes the user ID of the employee present in the DB to find and update the details.
 
-4. Delete an existing employee:
+# 4. Delete an existing employee:
 
 "/deleteEmployee" : This route is used to delete the details of the employee present in the DB with the help of the user ID. Just make a POST request from an API platform with a body as follows:
 
