@@ -21,13 +21,11 @@ Base URL: https://vivriti-capital-task.onrender.com
     "Department": "Dummy Department"
 }
 
-# 3. Update the deatails of Existing Employee:
+# 3. Update the details of Existing Employee:
 
 "/updateEmployee/:userid" : This route is used to update the details of an employee which is already existing in DB. Just make a POST request from an API platform with a body as follows:
 
-{
-    "Address": "Shri Krishna Niwas 2nd Bhatwadi Lane C.p.tank,Chennai,400004,India"   
-}
+{ "Address": "Shri Krishna Niwas 2nd Bhatwadi Lane C.p.tank,Chennai,400004,India" }
 
 This :userid parameter in the URL takes the user ID of the employee present in the DB to find and update the details.
 
@@ -35,9 +33,7 @@ This :userid parameter in the URL takes the user ID of the employee present in t
 
 "/deleteEmployee" : This route is used to delete the details of the employee present in the DB with the help of the user ID. Just make a POST request from an API platform with a body as follows:
 
-{
-    "userId": 45908
-}
+{ "userId": 45908 }
 
 The entire document containing the details of the employee, with the provided user ID, will be deleted.
 
